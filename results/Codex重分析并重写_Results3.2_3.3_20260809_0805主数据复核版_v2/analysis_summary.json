@@ -1,0 +1,523 @@
+{
+  "paths": {
+    "output": "C:\\Users\\PCI\\Documents\\论文分析\\Codex重分析并重写_Results3.2_3.3_20260809_0805主数据复核版_v2",
+    "eye_participant_condition": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0055__02_eye_stage2__07_participant_condition_summary.xlsx",
+    "eeg_flow": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0277__00_eeg_onset_statistics__onset_parallel_sample_flow.csv",
+    "eeg_variant_results": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0286__00_eeg_onset_statistics__onset_variant_model_results.csv",
+    "previous_scene": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0421__07_reviewer_analysis__Reviewer1_parallel_previous_scene_FDR.csv"
+  },
+  "inventory_rows": 835,
+  "eye": {
+    "participant_condition_rows": 254,
+    "participants": 46,
+    "main_threshold_table": [
+      {
+        "Threshold": 0.5,
+        "ValidTrials": 487,
+        "ParticipantsWithAtLeastOneValidTrial": 50
+      },
+      {
+        "Threshold": 0.6,
+        "ValidTrials": 434,
+        "ParticipantsWithAtLeastOneValidTrial": 46
+      },
+      {
+        "Threshold": 0.7,
+        "ValidTrials": 347,
+        "ParticipantsWithAtLeastOneValidTrial": 43
+      }
+    ],
+    "model_outcomes": [
+      {
+        "outcome": "TableShare",
+        "model": "teacher_eye_ordered_beta_mixed",
+        "status": "fit",
+        "singular": NaN,
+        "n": 434,
+        "Source_file": "SRC0080__02_eye_stage2__17_core_model_diagnostics.csv",
+        "Full_path": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv"
+      },
+      {
+        "outcome": "WindowShare",
+        "model": "teacher_eye_ordered_beta_mixed",
+        "status": "fit",
+        "singular": NaN,
+        "n": 434,
+        "Source_file": "SRC0080__02_eye_stage2__17_core_model_diagnostics.csv",
+        "Full_path": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv"
+      },
+      {
+        "outcome": "RawCompetition",
+        "model": "teacher_eye_lmm",
+        "status": "fit",
+        "singular": false,
+        "n": 434,
+        "Source_file": "SRC0080__02_eye_stage2__17_core_model_diagnostics.csv",
+        "Full_path": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv"
+      },
+      {
+        "outcome": "LogTableEnrichment",
+        "model": "teacher_eye_lmm",
+        "status": "fit",
+        "singular": false,
+        "n": 399,
+        "Source_file": "SRC0080__02_eye_stage2__17_core_model_diagnostics.csv",
+        "Full_path": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv"
+      },
+      {
+        "outcome": "LogWindowEnrichment",
+        "model": "teacher_eye_lmm",
+        "status": "fit",
+        "singular": false,
+        "n": 371,
+        "Source_file": "SRC0080__02_eye_stage2__17_core_model_diagnostics.csv",
+        "Full_path": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv"
+      },
+      {
+        "outcome": "AdjustedCompetition",
+        "model": "teacher_eye_lmm",
+        "status": "fit",
+        "singular": false,
+        "n": 339,
+        "Source_file": "SRC0080__02_eye_stage2__17_core_model_diagnostics.csv",
+        "Full_path": "D:\\投稿desk\\2026sci\\260419投稿材料\\260722\\数据分析结果包-0805（对齐眼动eeg）\\filesource_flat\\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv"
+      }
+    ],
+    "non_intercept_q_lt_0_05_count": 14,
+    "concordant_among_14_count": 13,
+    "companion_only_among_14_count": 1,
+    "primary_only_among_14_count": 0,
+    "no_corrected_evidence_among_14_count": 0,
+    "table_window_all_nonintercept_status_counts": {
+      "No corrected evidence": 22,
+      "Concordant": 5,
+      "Companion-only": 1
+    },
+    "adjusted_competition_q_lt_0_05_count": 0,
+    "block_or_position_q_lt_0_05_count": 0,
+    "holm_pairwise_p_lt_0_05_count": 7,
+    "direction_sensitivity_summary": [
+      {
+        "Outcome": "RawCompetition",
+        "Term": "ComplexityC1",
+        "Primary_estimate": -0.105423825630234,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "RawCompetition",
+        "Term": "WWRWWR45",
+        "Primary_estimate": -0.0603457128952499,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "RawCompetition",
+        "Term": "WWRWWR75",
+        "Primary_estimate": -0.0913169327301446,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "RawCompetition",
+        "Term": "WWRWWR75:ComplexityC1",
+        "Primary_estimate": 0.106101647423581,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "RawCompetition",
+        "Term": "WWRWWR75:ExperienceGroupLow",
+        "Primary_estimate": -0.117231982762743,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "TableShare",
+        "Term": "ComplexityC1",
+        "Primary_estimate": -0.607695476774419,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "TableShare",
+        "Term": "WWRWWR75:ComplexityC1",
+        "Primary_estimate": 0.438052224405841,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "TableShare",
+        "Term": "WWRWWR75:ExperienceGroupLow",
+        "Primary_estimate": -0.498790070964611,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "WindowShare",
+        "Term": "WWRWWR45",
+        "Primary_estimate": 1.00184321381491,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "WindowShare",
+        "Term": "WWRWWR45:ComplexityC1",
+        "Primary_estimate": -0.344241811745207,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "WindowShare",
+        "Term": "WWRWWR75",
+        "Primary_estimate": 1.59320187897724,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "LogTableEnrichment",
+        "Term": "ComplexityC1",
+        "Primary_estimate": -0.527043034916943,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "LogTableEnrichment",
+        "Term": "WWRWWR75:ComplexityC1",
+        "Primary_estimate": 0.456388755876687,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      },
+      {
+        "Outcome": "LogWindowEnrichment",
+        "Term": "WWRWWR75",
+        "Primary_estimate": 0.444506467040164,
+        "Sensitivity_estimates_available": 51,
+        "Direction_matches": 51,
+        "Direction_consistency_percent": 100.0,
+        "Sensitivity_sources": "EEG_common_sample; block1; leave_one_participant_out; tracking_threshold"
+      }
+    ],
+    "stage3_diagnostics": {
+      "fit_failed": 17,
+      "fit": 4
+    },
+    "stage3_separate_failures": {
+      "two_part": 4,
+      "time": 2,
+      "S3_eye": 4
+    },
+    "known_mean_checks": [
+      {
+        "key": "RawCompetition|WWR15|C0",
+        "computed": 0.2702832082598789,
+        "expected_rounded": 0.2703,
+        "absolute_difference": 1.6791740121091525e-05
+      },
+      {
+        "key": "RawCompetition|WWR15|C1",
+        "computed": 0.1770476428785501,
+        "expected_rounded": 0.177,
+        "absolute_difference": 4.764287855010818e-05
+      },
+      {
+        "key": "RawCompetition|WWR45|C0",
+        "computed": 0.19847270788355614,
+        "expected_rounded": 0.1985,
+        "absolute_difference": 2.7292116443866643e-05
+      },
+      {
+        "key": "RawCompetition|WWR45|C1",
+        "computed": 0.14429281876643205,
+        "expected_rounded": 0.1443,
+        "absolute_difference": 7.181233567965517e-06
+      },
+      {
+        "key": "RawCompetition|WWR75|C0",
+        "computed": 0.14398568908320636,
+        "expected_rounded": 0.144,
+        "absolute_difference": 1.4310916793630613e-05
+      },
+      {
+        "key": "RawCompetition|WWR75|C1",
+        "computed": 0.13461998121353974,
+        "expected_rounded": 0.1346,
+        "absolute_difference": 1.9981213539743692e-05
+      },
+      {
+        "key": "TableShare|WWR15|C0",
+        "computed": 0.2903838815511004,
+        "expected_rounded": 0.2904,
+        "absolute_difference": 1.6118448899593574e-05
+      },
+      {
+        "key": "TableShare|WWR15|C1",
+        "computed": 0.19290370325780806,
+        "expected_rounded": 0.1929,
+        "absolute_difference": 3.703257808074234e-06
+      },
+      {
+        "key": "TableShare|WWR45|C0",
+        "computed": 0.27992682032698135,
+        "expected_rounded": 0.2799,
+        "absolute_difference": 2.682032698136938e-05
+      },
+      {
+        "key": "TableShare|WWR45|C1",
+        "computed": 0.1971922243404867,
+        "expected_rounded": 0.1972,
+        "absolute_difference": 7.775659513292732e-06
+      },
+      {
+        "key": "TableShare|WWR75|C0",
+        "computed": 0.27956491964922237,
+        "expected_rounded": 0.2796,
+        "absolute_difference": 3.5080350777649816e-05
+      },
+      {
+        "key": "TableShare|WWR75|C1",
+        "computed": 0.24703697544024653,
+        "expected_rounded": 0.247,
+        "absolute_difference": 3.6975440246528324e-05
+      },
+      {
+        "key": "WindowShare|WWR15|C0",
+        "computed": 0.02010067329122157,
+        "expected_rounded": 0.0201,
+        "absolute_difference": 6.732912215708098e-07
+      },
+      {
+        "key": "WindowShare|WWR15|C1",
+        "computed": 0.015856060379258012,
+        "expected_rounded": 0.0159,
+        "absolute_difference": 4.3939620741988844e-05
+      },
+      {
+        "key": "WindowShare|WWR45|C0",
+        "computed": 0.08145411244342524,
+        "expected_rounded": 0.0815,
+        "absolute_difference": 4.588755657476684e-05
+      },
+      {
+        "key": "WindowShare|WWR45|C1",
+        "computed": 0.052899405574054655,
+        "expected_rounded": 0.0529,
+        "absolute_difference": 5.944259453480316e-07
+      },
+      {
+        "key": "WindowShare|WWR75|C0",
+        "computed": 0.13557923056601598,
+        "expected_rounded": 0.1356,
+        "absolute_difference": 2.0769433984019203e-05
+      },
+      {
+        "key": "WindowShare|WWR75|C1",
+        "computed": 0.11241699422670678,
+        "expected_rounded": 0.1124,
+        "absolute_difference": 1.6994226706784632e-05
+      }
+    ]
+  },
+  "eeg": {
+    "flow": [
+      {
+        "sample_strategy": "variant_specific_qc",
+        "onset_trim_s": 0.0,
+        "trials_total": 672,
+        "trials_retained": 471,
+        "participants_retained": 42
+      },
+      {
+        "sample_strategy": "variant_specific_qc",
+        "onset_trim_s": 5.0,
+        "trials_total": 672,
+        "trials_retained": 469,
+        "participants_retained": 42
+      },
+      {
+        "sample_strategy": "variant_specific_qc",
+        "onset_trim_s": 10.0,
+        "trials_total": 672,
+        "trials_retained": 484,
+        "participants_retained": 43
+      },
+      {
+        "sample_strategy": "variant_specific_qc",
+        "onset_trim_s": 15.0,
+        "trials_total": 672,
+        "trials_retained": 486,
+        "participants_retained": 43
+      },
+      {
+        "sample_strategy": "parallel_common_qc",
+        "onset_trim_s": NaN,
+        "trials_total": 672,
+        "trials_retained": 461,
+        "participants_retained": 42
+      }
+    ],
+    "common_qc_rows": 672,
+    "common_qc_participants": 42,
+    "core_classification": [
+      {
+        "Metric": "O_theta",
+        "Family": "Core",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "pending_robustness"
+      },
+      {
+        "Metric": "F_theta",
+        "Family": "Core",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "pending_robustness"
+      },
+      {
+        "Metric": "O_alpha",
+        "Family": "Core",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "pending_robustness"
+      },
+      {
+        "Metric": "O_beta",
+        "Family": "Core",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "pending_robustness"
+      },
+      {
+        "Metric": "P_theta",
+        "Family": "Secondary",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "Exploratory"
+      },
+      {
+        "Metric": "P_alpha",
+        "Family": "Secondary",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "Exploratory"
+      },
+      {
+        "Metric": "F_alpha",
+        "Family": "Secondary",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "Exploratory"
+      },
+      {
+        "Metric": "F_beta",
+        "Family": "Supplemental",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "Exploratory"
+      },
+      {
+        "Metric": "P_beta",
+        "Family": "Supplemental",
+        "PrimaryMeasure": "relative_power",
+        "AbsolutePowerRole": "sensitivity",
+        "DefaultClaimGrade": "Exploratory"
+      }
+    ],
+    "model_contract": [
+      {
+        "Model": "teacher_primary_lmm",
+        "Formula": "Outcome ~ WWR*Complexity + WWR*ExperienceGroup + Complexity*ExperienceGroup + Gender + Block + PositionWithinBlockCentered + OrderGroup + (1|Participant)",
+        "Forbidden": "WWR:Complexity:ExperienceGroup;WWR:OrderGroup;Complexity:OrderGroup",
+        "PrimaryMeasure": "relative_power",
+        "BootstrapIterations": 5000,
+        "ReferenceOnsetTrimS": 10,
+        "OnsetTrimStrategy": "parallel",
+        "OnsetTrimVariantsS": "0,5,10,15",
+        "EquivalenceBoundSD": 0.2,
+        "OnsetRandomSeed": 20260802
+      }
+    ],
+    "variant_index": [
+      {
+        "onset_trim_s": 0,
+        "participants": 42,
+        "trials": 461,
+        "sample_strategy": "parallel_common_qc",
+        "model_suite": "Model0;Model1;PreviousScene;Block1;CR2",
+        "r_completed": true,
+        "output_dir": "E:\\26\\补\\数据分析结果\\teacher_runs\\teacher_parallel_20260804\\06_eeg_primary\\onset_window_models\\trim_0s"
+      },
+      {
+        "onset_trim_s": 5,
+        "participants": 42,
+        "trials": 461,
+        "sample_strategy": "parallel_common_qc",
+        "model_suite": "Model0;Model1;PreviousScene;Block1;CR2",
+        "r_completed": true,
+        "output_dir": "E:\\26\\补\\数据分析结果\\teacher_runs\\teacher_parallel_20260804\\06_eeg_primary\\onset_window_models\\trim_5s"
+      },
+      {
+        "onset_trim_s": 10,
+        "participants": 42,
+        "trials": 461,
+        "sample_strategy": "parallel_common_qc",
+        "model_suite": "Model0;Model1;PreviousScene;Block1;CR2",
+        "r_completed": true,
+        "output_dir": "E:\\26\\补\\数据分析结果\\teacher_runs\\teacher_parallel_20260804\\06_eeg_primary\\onset_window_models\\trim_10s"
+      },
+      {
+        "onset_trim_s": 15,
+        "participants": 42,
+        "trials": 461,
+        "sample_strategy": "parallel_common_qc",
+        "model_suite": "Model0;Model1;PreviousScene;Block1;CR2",
+        "r_completed": true,
+        "output_dir": "E:\\26\\补\\数据分析结果\\teacher_runs\\teacher_parallel_20260804\\06_eeg_primary\\onset_window_models\\trim_15s"
+      }
+    ],
+    "core144_tests": 144,
+    "core144_raw_lt_0_05": 3,
+    "core144_within_fdr_lt_0_05": 0,
+    "core144_joint_fdr_lt_0_05": 0,
+    "broader324_tests": 324,
+    "broader324_raw_lt_0_05": 14,
+    "broader324_within_fdr_lt_0_05": 0,
+    "broader324_joint_fdr_lt_0_05": 0,
+    "broader_fit_status": {
+      "fit": 36
+    },
+    "previous48_tests": 48,
+    "previous48_raw_lt_0_05": 2,
+    "previous48_within_fdr_lt_0_05": 0,
+    "previous48_joint_fdr_lt_0_05": 0,
+    "window_comparison_roles": {
+      "parallel_descriptive_pairwise": 756
+    }
+  }
+}

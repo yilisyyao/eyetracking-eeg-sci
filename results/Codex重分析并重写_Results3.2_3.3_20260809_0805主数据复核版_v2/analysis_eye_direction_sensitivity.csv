@@ -1,0 +1,15 @@
+﻿Outcome,Term,Primary_estimate,Sensitivity_estimates_available,Direction_matches,Direction_consistency_percent,Sensitivity_sources
+RawCompetition,ComplexityC1,-0.105423825630234,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+RawCompetition,WWRWWR45,-0.0603457128952499,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+RawCompetition,WWRWWR75,-0.0913169327301446,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+RawCompetition,WWRWWR75:ComplexityC1,0.106101647423581,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+RawCompetition,WWRWWR75:ExperienceGroupLow,-0.117231982762743,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+TableShare,ComplexityC1,-0.607695476774419,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+TableShare,WWRWWR75:ComplexityC1,0.438052224405841,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+TableShare,WWRWWR75:ExperienceGroupLow,-0.498790070964611,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+WindowShare,WWRWWR45,1.00184321381491,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+WindowShare,WWRWWR45:ComplexityC1,-0.344241811745207,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+WindowShare,WWRWWR75,1.59320187897724,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+LogTableEnrichment,ComplexityC1,-0.527043034916943,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+LogTableEnrichment,WWRWWR75:ComplexityC1,0.456388755876687,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold
+LogWindowEnrichment,WWRWWR75,0.444506467040164,51,51,100.0,EEG_common_sample; block1; leave_one_participant_out; tracking_threshold

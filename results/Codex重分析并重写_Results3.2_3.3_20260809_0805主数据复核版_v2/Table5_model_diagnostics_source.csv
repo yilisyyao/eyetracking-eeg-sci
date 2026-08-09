@@ -1,0 +1,7 @@
+﻿outcome,model,status,singular,n,Source_file,Full_path
+TableShare,teacher_eye_ordered_beta_mixed,fit,,434,SRC0080__02_eye_stage2__17_core_model_diagnostics.csv,D:\投稿desk\2026sci\260419投稿材料\260722\数据分析结果包-0805（对齐眼动eeg）\filesource_flat\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv
+WindowShare,teacher_eye_ordered_beta_mixed,fit,,434,SRC0080__02_eye_stage2__17_core_model_diagnostics.csv,D:\投稿desk\2026sci\260419投稿材料\260722\数据分析结果包-0805（对齐眼动eeg）\filesource_flat\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv
+RawCompetition,teacher_eye_lmm,fit,False,434,SRC0080__02_eye_stage2__17_core_model_diagnostics.csv,D:\投稿desk\2026sci\260419投稿材料\260722\数据分析结果包-0805（对齐眼动eeg）\filesource_flat\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv
+LogTableEnrichment,teacher_eye_lmm,fit,False,399,SRC0080__02_eye_stage2__17_core_model_diagnostics.csv,D:\投稿desk\2026sci\260419投稿材料\260722\数据分析结果包-0805（对齐眼动eeg）\filesource_flat\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv
+LogWindowEnrichment,teacher_eye_lmm,fit,False,371,SRC0080__02_eye_stage2__17_core_model_diagnostics.csv,D:\投稿desk\2026sci\260419投稿材料\260722\数据分析结果包-0805（对齐眼动eeg）\filesource_flat\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv
+AdjustedCompetition,teacher_eye_lmm,fit,False,339,SRC0080__02_eye_stage2__17_core_model_diagnostics.csv,D:\投稿desk\2026sci\260419投稿材料\260722\数据分析结果包-0805（对齐眼动eeg）\filesource_flat\SRC0080__02_eye_stage2__17_core_model_diagnostics.csv

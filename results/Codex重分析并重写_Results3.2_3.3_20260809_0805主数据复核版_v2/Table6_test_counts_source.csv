@@ -1,0 +1,4 @@
+﻿Analysis_block,Tests,Raw_p_lt_0.05,Within_window_FDR_lt_0.05,Joint_FDR_lt_0.05,Role
+Core condition tests,144,3,0,0,Primary core relative-power analysis
+Broader nine-outcome audit,324,14,0,0,Broader audit; does not override core analysis
+Previous-scene audit,48,2,0,0,Supplementary previous-scene audit
