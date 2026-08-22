@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="525.6pt" height="255.6pt" viewBox="0 0 525.6 255.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-22T20:54:33.291207</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 255.6 
+L 525.6 255.6 
+L 525.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 73.584 131.634 
+L 73.584 149.526 
+" clip-path="url(#p8dc7964e38)" style="fill: none; stroke: #7b858e; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 199.728 131.634 
+L 199.728 149.526 
+" clip-path="url(#p8dc7964e38)" style="fill: none; stroke: #7b858e; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 325.872 131.634 
+L 325.872 149.526 
+" clip-path="url(#p8dc7964e38)" style="fill: none; stroke: #7b858e; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 452.016 131.634 
+L 452.016 149.526 
+" clip-path="url(#p8dc7964e38)" style="fill: none; stroke: #7b858e; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 73.584 149.526 
+L 452.016 149.526 
+" clip-path="url(#p8dc7964e38)" style="fill: none; stroke: #7b858e; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 262.8 149.526 
+L 262.8 176.364 
+" clip-path="url(#p8dc7964e38)" style="fill: none; stroke: #7b858e; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 23.3892 133.1676 
+L 123.7788 133.1676 
+Q 127.9836 133.1676 127.9836 131.1228 
+L 127.9836 63.1332 
+Q 127.9836 61.0884 123.7788 61.0884 
+L 23.3892 61.0884 
+Q 19.1844 61.0884 19.1844 63.1332 
+L 19.1844 131.1228 
+Q 19.1844 133.1676 23.3892 133.1676 
+z
+" clip-path="url(#p8dc7964e38)" style="fill: #f7f8f9; stroke: #7b858e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 149.5332 133.1676 
+L 249.9228 133.1676 
+Q 254.1276 133.1676 254.1276 131.1228 
+L 254.1276 63.1332 
+Q 254.1276 61.0884 249.9228 61.0884 
+L 149.5332 61.0884 
+Q 145.3284 61.0884 145.3284 63.1332 
+L 145.3284 131.1228 
+Q 145.3284 133.1676 149.5332 133.1676 
+z
+" clip-path="url(#p8dc7964e38)" style="fill: #f7f8f9; stroke: #7b858e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 275.6772 133.1676 
+L 376.0668 133.1676 
+Q 380.2716 133.1676 380.2716 131.1228 
+L 380.2716 63.1332 
+Q 380.2716 61.0884 376.0668 61.0884 
+L 275.6772 61.0884 
+Q 271.4724 61.0884 271.4724 63.1332 
+L 271.4724 131.1228 
+Q 271.4724 133.1676 275.6772 133.1676 
+z
+" clip-path="url(#p8dc7964e38)" style="fill: #f7f8f9; stroke: #7b858e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 401.8212 133.1676 
+L 502.2108 133.1676 
+Q 506.4156 133.1676 506.4156 131.1228 
+L 506.4156 63.1332 
+Q 506.4156 61.0884 502.2108 61.0884 
+L 401.8212 61.0884 
+Q 397.6164 61.0884 397.6164 63.1332 
+L 397.6164 131.1228 
+Q 397.6164 133.1676 401.8212 133.1676 
+z
+" clip-path="url(#p8dc7964e38)" style="fill: #f7f8f9; stroke: #7b858e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 170.5572 238.4748 
+L 355.0428 238.4748 
+Q 360.2988 238.4748 360.2988 235.9188 
+L 360.2988 176.8752 
+Q 360.2988 174.3192 355.0428 174.3192 
+L 170.5572 174.3192 
+Q 165.3012 174.3192 165.3012 176.8752 
+L 165.3012 235.9188 
+Q 165.3012 238.4748 170.5572 238.4748 
+z
+" clip-path="url(#p8dc7964e38)" style="fill: #edf1f4; stroke: #24303a; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="262.8" y="19.331285" transform="rotate(-0 262.8 19.331285)">Parallel onset-trim variants</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #66717b" x="262.8" y="36.524479" transform="rotate(-0 262.8 36.524479)">Equal analytical status</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #66717b" x="262.8" y="50.273812" transform="rotate(-0 262.8 50.273812)">Window-specific QC applied separately</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="73.584" y="84.041551" transform="rotate(-0 73.584 84.041551)">0-s onset trim</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="73.584" y="103.132001" transform="rotate(-0 73.584 103.132001)">42 participants</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="73.584" y="117.624521" transform="rotate(-0 73.584 117.624521)">471 trials</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="199.728" y="84.041551" transform="rotate(-0 199.728 84.041551)">5-s onset trim</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="199.728" y="103.132001" transform="rotate(-0 199.728 103.132001)">42 participants</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="199.728" y="117.624521" transform="rotate(-0 199.728 117.624521)">469 trials</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="325.872" y="84.041551" transform="rotate(-0 325.872 84.041551)">10-s onset trim</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="325.872" y="103.132001" transform="rotate(-0 325.872 103.132001)">43 participants</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="325.872" y="117.624521" transform="rotate(-0 325.872 117.624521)">484 trials</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8.1px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="452.016" y="84.041551" transform="rotate(-0 452.016 84.041551)">15-s onset trim</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="452.016" y="103.132001" transform="rotate(-0 452.016 103.132001)">43 participants</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="452.016" y="117.624521" transform="rotate(-0 452.016 117.624521)">486 trials</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="262.8" y="195.408066" transform="rotate(-0 262.8 195.408066)">Common-QC sample</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.3px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #24303a" x="262.8" y="210.6888" transform="rotate(-0 262.8 210.6888)">42 participants  ·  461 trials</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 7.3px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #43515c" x="262.8" y="225.10464" transform="rotate(-0 262.8 225.10464)">Formal cross-variant inference</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8dc7964e38">
+   <rect x="0" y="0" width="525.6" height="255.6"/>
+  </clipPath>
+ </defs>
+</svg>

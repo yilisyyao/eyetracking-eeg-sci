@@ -1,0 +1,6 @@
+﻿onset_trim_s,sample_type,n_participants,n_trials,source_file,source_sheet_or_object,participant_id_field,trial_or_scene_id_field,qc_or_inclusion_field,value_origin
+0,window-specific QC,42,471,SRC0276__00_eeg_onset_statistics__onset_common_qc_parallel.csv,CSV table,participant_id,scene_id,qc_pass_trim_0,source-derived
+5,window-specific QC,42,469,SRC0276__00_eeg_onset_statistics__onset_common_qc_parallel.csv,CSV table,participant_id,scene_id,qc_pass_trim_5,source-derived
+10,window-specific QC,43,484,SRC0276__00_eeg_onset_statistics__onset_common_qc_parallel.csv,CSV table,participant_id,scene_id,qc_pass_trim_10,source-derived
+15,window-specific QC,43,486,SRC0276__00_eeg_onset_statistics__onset_common_qc_parallel.csv,CSV table,participant_id,scene_id,qc_pass_trim_15,source-derived
+common,common-QC,42,461,SRC0276__00_eeg_onset_statistics__onset_common_qc_parallel.csv,CSV table,participant_id,scene_id,onset_common_qc_pass,source-derived
